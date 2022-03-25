@@ -1,0 +1,127 @@
+* {
+    background-color: #964ceb ;
+}
+
+
+header .form input {
+    border: 10px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 400px;
+}
+
+
+
+header .form input::placeholder {
+    font-size: 15px;
+    color: bisque;
+}    
+
+
+header .password input {
+    border: 10px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+}
+
+
+
+header .password input::placeholder {
+    font-size: 15px;
+    color: bisque;
+}
+
+header {
+    height: 300x;
+    width: 1500px;
+    position: fixed;   
+    top: 0;
+    padding-bottom: 30px;
+    padding-top: -10px;
+    box-shadow:2px 1px 10px 5px black;
+    margin-left: -7px;
+}
+
+
+h1 {
+    
+    font-family: 'Playfair Display', serif;
+    background: rgb(106, 194, 197);
+    display: inline-flex;
+    margin: auto;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    text-decoration: underline coral;
+    display: inline-block ;
+    background: cadetblue;
+    margin-top: 100px;
+}
+
+div div {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    display: block;
+    background:yellow;
+}
+
+.contenedor {
+    position: absolute;
+    border: 4px solid red;
+    width: 450px;
+    height: 250px;
+    
+}
+
+.caja {
+    background-color: orange;
+    margin: 45px;
+    bottom: 20px;
+    float: right;
+}
+
+.caja2 {
+    margin: 50%;
+    position: relative;
+    top: -210px;
+}
+
+
+p {
+    font-size: 20px;
+    background: rgb(255, 230, 0);
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block ;
+    margin-top: 10px;
+    border: 5px solid black
+    
+}
+
+
+.navbar1 {
+    position: sticky;
+    top: 60px;
+    background: rgb(182, 182, 226);
+    font-size: 20px;
+    display: inline;
+}
+
+a:hover {
+    background-color: rgb(195, 214, 160);
+    display: inline;
+}
+
+a {
+    border: 2px double black;
+    background: transparent;
+}
+
+
